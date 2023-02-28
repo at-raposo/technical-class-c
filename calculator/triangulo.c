@@ -13,7 +13,7 @@ main(){
 	
 	float area = (b*h)/2;
 	
-	printf ("Sua area é de: %f", area);
+	printf ("A area do triangulo Ã© de: %f", area);
 	
 	return 0;
 }
