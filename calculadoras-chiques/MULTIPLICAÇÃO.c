@@ -3,7 +3,7 @@
 
 main(){
 	
-	printf("\n####### VAMOS FAZER UMA MULTIPLICA«√O!! #######\n");
+	printf("\n####### VAMOS FAZER UMA MULTIPLICA√á√ÉO!! #######\n");
 
 	
 	int a,b;
