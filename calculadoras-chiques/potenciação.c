@@ -5,7 +5,7 @@
 
 main(){
 	
-	printf("\n####### VAMOS FAZER UMA POTENCIA«√O!! #######\n");
+	printf("\n####### VAMOS FAZER UMA POTENCIA√á√ÉO!! #######\n");
 
 	
 	int a, b;
@@ -23,7 +23,7 @@ main(){
 	printf("\n\n####### HORA DO RESULTADO!! #######\n\n");
 
 	
-	printf("O resultado da sua potencia È %d^%d = %d\n\n", a,b,c);
+	printf("O resultado da sua potencia √© %d^%d = %d\n\n", a,b,c);
 	
 	return 0;
 
