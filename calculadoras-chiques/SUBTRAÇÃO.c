@@ -3,7 +3,7 @@
 
 main(){
 	
-	printf("\n####### VAMOS FAZER UMA SUBTRA«√O!! #######\n");
+	printf("\n####### VAMOS FAZER UMA SUBTRA√á√ÉO!! #######\n");
 
 	
 	int a,b;
