@@ -9,7 +9,7 @@ main(){
 
 	
 	int a;
-	printf("\n\nDigite o valor da raiz que você que saber:\n");
+	printf("\n\nDigite o valor da raiz que vocÃª que saber:\n");
 	scanf("%d", &a);
 	printf("\nVALOR DA RAIZ DIGITADO COM SUCESSO!!!\n");
 	printf("\n##########\n");
@@ -19,7 +19,7 @@ main(){
 	printf("\n\n####### HORA DO RESULTADO!! #######\n\n");
 
 	
-	printf("O resultado da sua potencia é %d = %d\n\n", a,c);
+	printf("O resultado da sua potencia Ã© %d = %d\n\n", a,c);
 	
 	return 0;
 
