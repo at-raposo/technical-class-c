@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 main(){
+		setlocale (LC_ALL, "Portuguese"); // indica a lingua e configurações ortograficas
+	
 	
 	printf("\n####### VAMOS FAZER UMA SOMA!! #######\n");
 
