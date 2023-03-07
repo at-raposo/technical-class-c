@@ -25,8 +25,4 @@ while(cont<=10){ //enquanto a a condição verdadeira, faça
 	
 	return 0;	
 	
-	
-	
-	
-	
 }
