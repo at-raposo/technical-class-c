@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+#include<string.h>
+#define TAM 50
+
+int main(){
+	setlocale(LC_ALL, "PORTUGUESE");
+	char nome1[TAM], nome2 [TAM], nome3[TAM];
+
+	
+	printf("\n#### LISTA DE NOMES EM ORDEM ALFABÉTICA ####\n");
+	printf("\nDigite um nome:\n");
+	fgets(nome1, TAM,stdin);
+	
+	printf("\n\nDigite outro nome:\n");
+	fgets(nome2, TAM,stdin);
+
+	while(strcmp(nome1,nome2)<0){
+	if{
+		printf("\n\n Os nomes digitados em ordem foram:\n1)%s2)%s\n\n\n",nome1,nome2);
+}
+	else{
+		printf("\n\nOs nomes digitados foram:\n1)%s2)%s\n"nome2,nome1);
+		}
+
+		
+printf("#### PROGRAMA FINALIZADO ####");
+return 0;
+			
+}
+}
