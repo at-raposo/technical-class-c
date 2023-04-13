@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+int main(){
+	setlocale(LC_ALL, "PORTUGUESE");
+	//o for(para) é usado para ver quantas vezes eu posso repetir algum comando
+	//o while(enquanto) ele só sai da estrutura quando determinada condição ainda não acontece
+	int var[5];
+	int i=0;
+	
+	printf("\n ##### APRESENTAÇÃO SOBRE VETORES - FOR #####\n ");
+	
+	for(i=0;i<5;i++){
+		
+		var[i]=i;
+		printf("\n%d\n", var[i]);
+	}
+
+	printf("\n ##### FINALIZAÇÃO DO PROGRAMA #####\n ");
+
+	return 0;	
+	
+}
