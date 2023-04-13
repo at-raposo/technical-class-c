@@ -4,9 +4,10 @@
 #include<string.h>
 #define TAM 50
 
+using namespace std;
 int main(){
 	setlocale(LC_ALL, "PORTUGUESE");
-	char nome1[TAM], nome2 [TAM], nome3[TAM];
+	char nome1[TAM], nome2 [TAM];
 
 	
 	printf("\n#### LISTA DE NOMES EM ORDEM ALFABÉTICA ####\n");
@@ -16,17 +17,15 @@ int main(){
 	printf("\n\nDigite outro nome:\n");
 	fgets(nome2, TAM,stdin);
 
-	while(strcmp(nome1,nome2)<0){
-	if{
+	if(strcmp(nome1,nome2)<0){
 		printf("\n\n Os nomes digitados em ordem foram:\n1)%s2)%s\n\n\n",nome1,nome2);
 }
 	else{
-		printf("\n\nOs nomes digitados foram:\n1)%s2)%s\n"nome2,nome1);
+		printf("\n\nOs nomes digitados foram:\n1)%s2)%s\n",nome2,nome1);
 		}
 
 		
 printf("#### PROGRAMA FINALIZADO ####");
 return 0;
 			
-}
 }
