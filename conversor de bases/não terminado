@@ -1,0 +1,69 @@
+/*
+  Name: Bases conversors
+  Author:Thainá (ANDY) Raposo
+  Date: 27/04/23
+  Description: The objective of this program is to convert the binary numbers to a decimals number and
+  decimal numbers in a binary number.
+
+  ATT: All coments in this program are in Brazilian Portugues, you can find the translation on
+  https://translate.google.com.br
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+#include <conio.h>
+
+int main(void){
+
+    setlocale(LC_ALL, "PORTUGUESE");
+    int i = 0, value = 0, j = 0, cout = 0, final = 0;
+    int vet_0[10];
+
+    for(;;){
+
+        printf("\n\n#### CONVERSOR DE BASES DECIMAL E BINÁRIO ####\n\n");
+
+        printf(" ** ESCOLHA UMA OPÇÃOO: \n\n- Digite [ 0 ] para número binário para decimal \n- Digite [ 1 ] para número binário virar decimal\n\n");
+
+        printf("  - Digite a opção desejada:");
+        scanf("%d",&i);
+        printf(" - Digite o valor que você quer que seja convertido:");
+        scanf("%d \n\n",&value);
+
+
+        if( i == 0){
+            while(value>=1){
+                vet_0[j] = value%2;
+                value = value/2;
+                j++;
+            }
+            cout = j;
+            for(j = cout - 1; j>0; j--){
+               printf("A conversão final é: %d",vet_0[j]);
+            }
+        }
+        if( i == 1){
+            while(value>=1){
+                vet_0[j] = value%10;
+                value = value/10;
+                j++;
+            }
+        }
+        cout = j;
+        for(j = cout; j>0; j--){
+            final = final + pow(2,j-1)*vet_0[j-1];
+            printf("\n\nA conversão final é: %d\n\n", final);
+
+        }
+
+        printf("### CARREGANDO NOVA CONVERSÃO\n");
+        printf("\n...\n...\n...\n...\n");
+
+    }
+
+    getch();
+    return 0;
+
+}
