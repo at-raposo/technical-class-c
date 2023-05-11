@@ -1,7 +1,7 @@
 /*
   Name: Bases conversors
   Author:Thainá (ANDY) Raposo
-  Date: 10/05/23
+  Date: 27/04/23
   Description: The objective of this program is to convert the binary numbers to a decimals number and
   decimal numbers in a binary number.
 
@@ -19,23 +19,26 @@
 
 int main (){
 	
-	for(;;){
 	
 	int i = 0, value = 0, j = 0, count = 0, final = 0;
 	int vet_0[10];
 	setlocale(LC_ALL, "PORTUGUESE");
-	    
+	for(;;){
+
 	printf("\n\n#### CONVERSOR DE BASES DECIMAL E BINÁRIO ####\n\n");
 	printf("** Escolha uma opção \n\n - 0 para Decimal -> Binario \n\n\ - 1 para Binario -> Decimal\n\n"); 
 	printf("\n -Digite aqui sua opção:");                                                                             
 	scanf("%d",&i);
+		if(i!= 0||1){
+		printf("\n\n###Valores e/ou opções incorretas, digite novamente\n\n");
+		
+		
+	}
 	printf("\n\n- Insira o valor para conversao:");
 	scanf("%d",&value);
 	printf("\n#\n#\n#\n");
 	
-	if(i||value!= 0||1){
-		printf("\n\n###  VALORES E/OU OPÇÕES INCORRETAS, DIGITE NOVAMENTE ### \n\n");
-	}
+
 	if(i == 0){
 		while(value >= 1){
 			vet_0[j] = value%2;
@@ -69,4 +72,4 @@ int main (){
 		printf("\n\n### PROGRAMAÇÃO FINALIZADA ###\n\n");
 		printf("\n.\n.\n.\n");
 	}
-}  
+}
