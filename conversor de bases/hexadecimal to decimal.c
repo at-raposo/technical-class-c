@@ -22,7 +22,7 @@ int main(){
 	
 	for(;;){
 
-	printf("\n\n#### CONVERSOR DE BASES DECIMAL E BINÁRIO ####\n\n");
+	printf("\n\n#### CONVERSOR DE BASES HEXADECIMAL E BINÁRIO ####\n\n");
 	printf("** Escolha uma opção \n\n - 0 para Decimal -> Hexadecimal \n\n\ - 1 para Hexadecimal -> Decimal\n\n"); 
 	printf("\n -Digite aqui sua opção:");                                                                             
 	scanf("%d",&i);
