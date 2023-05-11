@@ -1,3 +1,2 @@
-<h1>C/C++ Classes</h1>
-###
-Things i learn on ETEC
+<h1>Technical Class</h1>
+C/C++ Classes. Things i learn on ETEC.
