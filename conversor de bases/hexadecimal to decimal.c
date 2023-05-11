@@ -13,13 +13,13 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int main (){
-	int d = 0;
-	int h = 0;
-	 
+
+int main(){
+
 	
-	int i = 0;
+	int i = 0, d = 0, h = 0;
 	setlocale(LC_ALL, "PORTUGUESE");
+	
 	for(;;){
 
 	printf("\n\n#### CONVERSOR DE BASES DECIMAL E BINÁRIO ####\n\n");
